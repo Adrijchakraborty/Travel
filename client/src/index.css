@@ -3,6 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    /* outline: 2px solid black; */
+}
+
+.bg-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.295)), url('./assets/bg-img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .text-bg {
     background: rgb(2, 0, 36);
     background: linear-gradient(27deg, rgba(2, 0, 36, 1) 0%, rgba(9, 66, 121, 1) 29%, rgba(255, 0, 181, 1) 100%);
@@ -16,5 +27,4 @@
     font-size: 1.2rem;
     font-weight: 500;
     font-style: normal;
-  }
-
+}
